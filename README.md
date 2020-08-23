@@ -35,8 +35,23 @@ npx create-react-app moive_notice (프로젝트를 만들고 싶은 위치로 �
 4. cmd에서 code moive_notice 입력하면 해당 프로젝트로 VSCode가 열린다.
 
 5. github연동하기
-a. VSCode 콘솔창에서 git init 입력
+  a. VSCode 콘솔창에서 git init 입력 (로컬 저장소 디렉토리 만들기)
 
-b. github에서 저장소 만들기(헷갈리지 않기위해서 package.json의 프로젝트 이름과 똑같은 이름으로 저장소를 만듦)
+  b. github에서 저장소 만들기(헷갈리지 않기위해서 package.json의 프로젝트 이름과 똑같은 이름으로 저장소를 만듦)
 
+  c. 만든 저장소 링크 복사
+  
+  d. VSCode 콘솔 창에서 git remote add origin 만든 저장소 링크 (github 원격저장소와 연동하기)
+   ※이 말은 origin이라는 이름으로 리모트 저장소가 등록되었다는 의미이다.
+   git remote -v 를 입력하면 단축이름 origin과 원격저장소의 URL을 확인할 수 있다.
+   
+  e. git add . (변경이 된 파일 전부 저장소에 올린다)
+  
+  f. git commit -m "커밋메시지" (커밋시 메시지를 작성)
+  
+  g. git push origin master (커밋한 것을 저장소에 푸쉬해준다)
+
+
+6. npm start (react 서버기동)
+  
 
