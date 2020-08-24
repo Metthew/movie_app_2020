@@ -59,3 +59,7 @@ npx가 npm과 가장 다른 점은
 6. npm start (react 서버기동)
   
 
+7. npm i prop-types (prop의 대한 타입을 확인하기 위한 패키지)
+
+참고 : https://ko.reactjs.org/docs/typechecking-with-proptypes.html
+
