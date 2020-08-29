@@ -12,7 +12,7 @@ nvm-windows 사용법
 참고 : https://github.com/coreybutler/nvm-windows#usage
 
 
-    a. nvm instaill v12.18.2 (install할 node.js 버전)
+    a. nvm install v12.18.2 (install할 node.js 버전)
 
     b. nvm ls를 입력하여 현재 설치된 nodejs 버전을 확인한다.
 
